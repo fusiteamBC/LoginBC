@@ -6,12 +6,12 @@
    <elementGuidId>e3eedf87-71f5-4708-95f0-de75d60a9bcf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@type='password']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.v-textfield.v-widget.v-has-width.v-textfield-focus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

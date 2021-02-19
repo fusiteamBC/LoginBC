@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login dengan SID Anda_v-textfield v-w_68bfb6</name>
+   <name>input_Jenis Unit_gwt-uid-15</name>
    <tag></tag>
-   <elementGuidId>952a4221-f9b4-4e9a-90cf-186c79eb4238</elementGuidId>
+   <elementGuidId>a6a8f7d6-6c3c-4200-aa6f-fc4fd5490467</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input.v-textfield.v-widget.v-has-width.v-textfield-focus</value>
+         <value>#gwt-uid-15</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='text']</value>
+         <value>//input[@id='gwt-uid-15']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,48 +35,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>v-textfield v-widget v-has-width v-textfield-focus</value>
+      <value>v-filterselect-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>BeatsID</value>
+      <value>gwt-uid-15</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>gwt-uid-14</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ROOT-2521314&quot;)/div[@class=&quot;v-ui v-scrollable&quot;]/div[@class=&quot;v-csslayout v-layout v-widget fusi-background-login v-csslayout-fusi-background-login v-has-width v-has-height&quot;]/div[@class=&quot;v-horizontallayout v-layout v-horizontal v-widget v-has-width v-has-height v-margin-top v-margin-right v-margin-bottom v-margin-left&quot;]/div[@class=&quot;v-expand&quot;]/div[@class=&quot;v-slot v-align-right v-align-middle&quot;]/div[@class=&quot;v-csslayout v-layout v-widget&quot;]/div[@class=&quot;v-horizontallayout v-layout v-horizontal v-widget fusi-login-layout v-horizontallayout-fusi-login-layout v-margin-right&quot;]/div[@class=&quot;v-slot v-align-right v-align-middle&quot;]/div[@class=&quot;v-verticallayout v-layout v-vertical v-widget v-margin-top v-margin-bottom&quot;]/div[@class=&quot;v-slot v-align-center&quot;]/input[@class=&quot;v-textfield v-widget v-has-width v-textfield-focus&quot;]</value>
+      <value>id(&quot;gwt-uid-15&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@type='text']</value>
+      <value>//input[@id='gwt-uid-15']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ROOT-2521314']/div/div[2]/div/div/div/div/div/div[3]/div/div[5]/input</value>
+      <value>//div[@id='ROOT-2521314-overlays']/div[3]/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div[5]/div/div[9]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//div[9]/div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
