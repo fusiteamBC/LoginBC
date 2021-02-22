@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'A2B' or . = 'A2B')]</value>
+         <value>id(&quot;VAADIN_COMBOBOX_OPTIONLIST&quot;)/div[@class=&quot;popupContent&quot;]/div[@class=&quot;v-filterselect-suggestmenu&quot;]/table[1]/tbody[1]/tr[2]/td[@class=&quot;gwt-MenuItem gwt-MenuItem-selected&quot;]/span[1][count(. | //*[(text() = 'A2B' or . = 'A2B')]) = count(//*[(text() = 'A2B' or . = 'A2B')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -35,7 +35,7 @@
       <value>A2B</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
