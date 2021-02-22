@@ -6,15 +6,19 @@
    <elementGuidId>5ab0a605-b279-4f6f-8fc9-a0086f4e5d52</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.gwt-MenuItem.gwt-MenuItem-selected > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='VAADIN_COMBOBOX_OPTIONLIST']/div/div[2]/table/tbody/tr[2]/td/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'ANFO TRUCK' or . = 'ANFO TRUCK')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.gwt-MenuItem.gwt-MenuItem-selected > span</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

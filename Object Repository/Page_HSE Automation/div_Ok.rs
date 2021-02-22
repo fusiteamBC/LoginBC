@@ -6,15 +6,19 @@
    <elementGuidId>5acdfbc4-674a-4331-a602-c0566e6bc889</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.v-slot.v-align-right > div.v-horizontallayout.v-layout.v-horizontal.v-widget > div.v-slot.v-slot-primary > div.v-button.v-widget.primary.v-button-primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='ROOT-2521314-overlays']/div[5]/div/div/div[3]/div/div/div[3]/div/div/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'button' and (text() = 'Ok' or . = 'Ok')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-slot.v-align-right > div.v-horizontallayout.v-layout.v-horizontal.v-widget > div.v-slot.v-slot-primary > div.v-button.v-widget.primary.v-button-primary</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>

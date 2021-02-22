@@ -6,15 +6,19 @@
    <elementGuidId>30cd7333-3730-4e7d-b6d0-7d87e659e860</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.v-formlayout-contentcell > div.v-button.v-widget.friendly.v-button-friendly</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='ROOT-2521314']/div/div[2]/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div[3]/div/div[3]/div/div[2]/div/div/div/table/tbody/tr[3]/td[3]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'button' and (text() = 'Kirim' or . = 'Kirim')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.v-formlayout-contentcell > div.v-button.v-widget.friendly.v-button-friendly</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>

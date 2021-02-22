@@ -6,15 +6,19 @@
    <elementGuidId>6a04a71c-4527-449a-91a2-b28781362d0d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.v-button.v-widget.primary.v-button-primary.v-has-width</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='ROOT-2521314-overlays']/div[5]/div/div/div[3]/div/div/div/div/div[2]/div/div[5]/div/div/div[3]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'button' and (text() = 'Simpan' or . = 'Simpan')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-button.v-widget.primary.v-button-primary.v-has-width</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>

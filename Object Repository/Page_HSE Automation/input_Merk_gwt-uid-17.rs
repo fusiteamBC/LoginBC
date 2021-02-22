@@ -6,15 +6,19 @@
    <elementGuidId>0dea925a-c252-4f8f-83e9-6ca7b55f88f9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#gwt-uid-17</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='gwt-uid-17']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @aria-required = 'true']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#gwt-uid-17</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,14 +49,14 @@
       <value>off</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

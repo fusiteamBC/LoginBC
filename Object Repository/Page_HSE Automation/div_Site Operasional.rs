@@ -6,15 +6,19 @@
    <elementGuidId>e23d00ef-d31a-4d89-9166-4e1fc76edea6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#gwt-uid-23 > div.v-captiontext</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='gwt-uid-23']/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Site Operasional' or . = 'Site Operasional')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#gwt-uid-23 > div.v-captiontext</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

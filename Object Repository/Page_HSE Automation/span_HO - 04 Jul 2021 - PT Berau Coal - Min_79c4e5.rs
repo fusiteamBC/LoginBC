@@ -6,15 +6,19 @@
    <elementGuidId>8cdad993-f84f-4580-80ee-4a9aaba1cd3a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.gwt-MenuItem.gwt-MenuItem-selected > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='VAADIN_COMBOBOX_OPTIONLIST']/div/div[2]/table/tbody/tr[2]/td/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'HO - 04 Jul 2021 - PT Berau Coal - Mining Technology' or . = 'HO - 04 Jul 2021 - PT Berau Coal - Mining Technology')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.gwt-MenuItem.gwt-MenuItem-selected > span</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

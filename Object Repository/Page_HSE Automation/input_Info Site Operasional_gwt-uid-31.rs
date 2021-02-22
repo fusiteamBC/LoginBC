@@ -6,15 +6,19 @@
    <elementGuidId>20f6b714-ae3a-4750-8f53-9fb94f277cdf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#gwt-uid-31</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='gwt-uid-31']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'gwt-uid-31']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#gwt-uid-31</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

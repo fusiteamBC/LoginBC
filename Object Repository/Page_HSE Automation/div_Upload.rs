@@ -6,15 +6,19 @@
    <elementGuidId>fa941f11-c481-4ff1-8388-e8d5c3e0d5eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#gwt-uid-27 > div.v-slot > form.v-upload.v-widget.v-upload-immediate > div > div.v-button</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='gwt-uid-27']/div/form/div/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'button' and (text() = 'Upload' or . = 'Upload')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#gwt-uid-27 > div.v-slot > form.v-upload.v-widget.v-upload-immediate > div > div.v-button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>

@@ -6,15 +6,19 @@
    <elementGuidId>54365f5c-9b58-489a-8bf2-1315b91cc642</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.v-filterselect.v-widget.v-required.v-filterselect-required.v-has-width.v-filterselect-focus > div.v-filterselect-button</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='ROOT-2521314-overlays']/div[3]/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div[5]/div/div[9]/div/div[2]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-filterselect.v-widget.v-required.v-filterselect-required.v-has-width.v-filterselect-focus > div.v-filterselect-button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,14 +42,14 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

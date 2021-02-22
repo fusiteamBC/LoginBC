@@ -6,15 +6,19 @@
    <elementGuidId>5b5530e0-44d3-411e-bf48-511b2c3ee135</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.gwt-MenuItem.gwt-MenuItem-selected > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='VAADIN_COMBOBOX_OPTIONLIST']/div/div[2]/table/tbody/tr[2]/td/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'MITSUBISHI' or . = 'MITSUBISHI')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.gwt-MenuItem.gwt-MenuItem-selected > span</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
